@@ -1,13 +1,27 @@
-streamlit
+# Data handling
 pandas
 numpy
+joblib
+tabulate
+
+# Visualization
 matplotlib
 seaborn
-tabulate
-joblib
+
+# Machine learning
 scikit-learn
 xgboost
+
+# Web app
+streamlit
+
+# Date / time
+datetime
+
+# Google / AI
 gspread
 google-generativeai
 oauth2client
-openpyxl
+
+# Path handling
+pathlib
