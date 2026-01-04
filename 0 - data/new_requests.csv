@@ -1,0 +1,7 @@
+Timestamp,Task Name,Frequency,Tool Used,Department,Rule-Based Indicator,Process Stability,Data Structure,Time Taken (mins),Complexity (1-5),Error Rate (%),Predicted Label,Feasibility (%),Model Used,Time Taken Raw (mins),Error Rate Raw (%)
+2025-12-31T19:26:16,Email Reminder Automation,Monthly,Outlook,Customer Service,Yes,Medium,Structured,-1.080322383,2.0,-0.371273626,Yes,80.23,Random Forest,,
+2026-01-02T20:07:56,Email Reminder Automation,Monthly,Outlook,Admin,Yes,Medium,Structured,-0.36782617,3.5,-0.371273626,Yes,98.42,XGBoost (Tuned Model),,
+2026-01-02T23:15:16,Monthly Invoice,Monthly,Custom Portal,Admin,No,Low,Unstructured,-1.1693844096641517,3.0,-0.0818251458071548,No,1.99,XGBoost (Tuned Model),,
+2026-01-03T18:24:31,ahsdhjkaskd,Ad-Hoc,Google Sheets,Human Resource,Yes,Medium,Unstructured,-0.8131363031404193,3.3,0.099080154445706,Yes,68.02,XGBoost (Tuned Model),50.0,5.5
+2026-01-03T18:35:00,ABC,Ad-Hoc,Google Sheets,Human Resource,Yes,Medium,Unstructured,50.0,3.3,5.5,Yes,68.02,XGBoost (Tuned Model),,
+2026-01-04T19:17:05,,Ad-Hoc,Custom Portal,Admin,No,High,Semi-Structured,30.0,3.0,5.0,No,8.42,XGBoost (Tuned Model),,
