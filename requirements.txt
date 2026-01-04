@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+tabulate
+joblib
+scikit-learn
+xgboost
+gspread
+google-generativeai
+oauth2client
+openpyxl
