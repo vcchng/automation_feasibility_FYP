@@ -9,7 +9,7 @@ st.title("Automation Feasibility Analytics Dashboard")
 st.caption("The dashboard below provides auotmation feasiblity insights into the submissions made using this model. Additionally, it displays the data used to train the model.")
 
 # === Power BI settings === #
-POWER_BI_EMBED_URL = st.secrets("bi_dashboard")
+POWER_BI_EMBED_URL = st.secrets["bi_dashboard"]
 
 DASHBOARD_HEIGHT = 800
 
