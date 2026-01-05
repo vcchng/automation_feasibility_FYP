@@ -25,7 +25,7 @@ BASELINE_PATH = PROJECT_ROOT / "0 - data" / "train_clean.xlsx"
 
 # === Google Sheets connector === #
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds_dict = st.secrets["google_credentials"]
+creds_dict = json.loads(st.secrets["google_credentials"])
 creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
 
