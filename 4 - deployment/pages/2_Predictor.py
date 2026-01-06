@@ -231,7 +231,7 @@ with st.form("predict_form"):
 
     st.markdown("---")
     task_desc = st.text_area(
-        "Optional: Task description (explain you proposed automation to receive an AI generated response according to the prediction and feasibility %.",
+        "Optional: Task description (explain you proposed automation to receive an AI generated response according to the prediction and feasibility %.)",
         placeholder="Briefly describe the task and any key rules/inputs/outputs...",
     )
 
