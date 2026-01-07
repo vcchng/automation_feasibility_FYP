@@ -11,7 +11,7 @@ st.caption("The dashboard below provides auotmation feasiblity insights into the
 # === Power BI settings === #
 POWER_BI_EMBED_URL = st.secrets["bi_dashboard"]
 
-DASHBOARD_HEIGHT = 800
+DASHBOARD_HEIGHT = 720
 
 # === Embed Power BI === #
 if POWER_BI_EMBED_URL and POWER_BI_EMBED_URL.startswith("http"):
