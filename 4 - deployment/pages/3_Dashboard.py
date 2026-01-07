@@ -11,11 +11,12 @@ st.caption("The dashboard below provides auotmation feasiblity insights into the
 # === Power BI settings === #
 POWER_BI_EMBED_URL = st.secrets["bi_dashboard"]
 
+width = 1280
 DASHBOARD_HEIGHT = 720
 
 # === Embed Power BI === #
 if POWER_BI_EMBED_URL and POWER_BI_EMBED_URL.startswith("http"):
-    components.iframe(POWER_BI_EMBED_URL, width="90%", height=DASHBOARD_HEIGHT, scrolling=True)
+    components.iframe(POWER_BI_EMBED_URL, width, height=DASHBOARD_HEIGHT, scrolling=True)
 else:
     st.info("Paste a valid Power BI report URL (starts with https://...) to display the dashboard.")
 
