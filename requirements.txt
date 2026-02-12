@@ -8,13 +8,14 @@ openpyxl
 # Visualization
 matplotlib
 seaborn
+altair==4.2.2
 
 # Machine learning
 scikit-learn
 xgboost
 
 # Web app
-streamlit
+streamlit==1.32.2
 
 # Date / time
 datetime
