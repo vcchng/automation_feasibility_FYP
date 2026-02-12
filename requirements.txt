@@ -8,6 +8,7 @@ openpyxl
 # Visualization
 matplotlib
 seaborn
+altair
 
 # Machine learning
 scikit-learn
